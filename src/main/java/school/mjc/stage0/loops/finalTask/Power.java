@@ -6,7 +6,7 @@ public class Power {
         if (power > 0) {
             for (int k = 1; k <= power; k++ ) result *= numberToPrint;
         }
-        System.out.print(result);
+        System.out.println(result);
     }
 
     public static void main(String[] args) {
